@@ -1,0 +1,183 @@
+{
+	"info": {
+		"_postman_id": "c8c93893-7e7e-4272-ad05-3a493b7b282e",
+		"name": "AppBancoInicial",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Register",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Nombre\":\"Jose Perez\" ,\r\n    \"Direccion\": \"Quito\",\r\n    \"Telefono\" : \"09825478sd5\",\r\n    \"Clave\" : \"1234\",\r\n    \"Estado\" : true\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44384/BancoInicial/Register",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44384",
+					"path": [
+						"BancoInicial",
+						"Register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Nombre\":\"Jose Lema\",\r\n    \"Clave\":\"1234\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44384/BancoInicial/Login",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44384",
+					"path": [
+						"BancoInicial",
+						"Login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Ingresar Cuentas",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"ID_Cliente\":\"1\",\r\n    \"NumeroCuenta\":\"01478529632\",\r\n    \"Tipo\":\"Ahorros\",\r\n    \"SaldoInicial\":\"Estado\",\r\n    \"Nombre\":\"Jose Lema\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44384/BancoInicial/IngresarCuentas",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44384",
+					"path": [
+						"BancoInicial",
+						"IngresarCuentas"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Ingresar Movimientos",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"NumeroCuenta\":,\r\n    \"Tipo\":,\r\n    \"SaldoInicial\":,\r\n    \"Estado\":,\r\n    \"Movimiento\":,\r\n    \"SaldoDisponible\":",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44384/BancoInicial/IngresarMovimientos",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44384",
+					"path": [
+						"BancoInicial",
+						"IngresarMovimientos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Actualizar Registro",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Nombre\":\"Jose Lema\",\r\n    \"Telefono\" : \"088254785\"\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44384/BancoInicial/UpdateRegistro",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44384",
+					"path": [
+						"BancoInicial",
+						"UpdateRegistro"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Eliminar Cuentas",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44384/BancoInicial/UpdateRegistro",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44384",
+					"path": [
+						"BancoInicial",
+						"UpdateRegistro"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Cuentas",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		}
+	]
+}
