@@ -38,7 +38,7 @@ namespace BancoInicialBackEnd.Controllers
         }
 
         /// <summary>
-        /// 
+        ///  Actualizar Usuario
         /// </summary>
         /// <param name="oUser"></param>
         /// <returns></returns>
@@ -73,7 +73,7 @@ namespace BancoInicialBackEnd.Controllers
         }
 
         /// <summary>
-        /// 
+        ///  Ingresar Cuentas
         /// </summary>
         /// <param name="oTransporte"></param>
         /// <returns></returns>
@@ -86,7 +86,7 @@ namespace BancoInicialBackEnd.Controllers
 
 
         /// <summary>
-        /// 
+        /// Ingresar Movimientos
         /// </summary>
         /// <param name="oCuenta"></param>
         /// <returns></returns>
@@ -108,12 +108,12 @@ namespace BancoInicialBackEnd.Controllers
         }
 
         /// <summary>
-        /// muestra los datos del parqueadero
+        /// muestra los datos
         /// verbo: get
         /// </summary>
         /// <returns></returns>
         [HttpGet("DatosCuentas")]
-        public IActionResult DatosParqueaderoS()
+        public IActionResult MuestraDeDatos()
         {
             return Ok(_Service.DatosCuenta());
         }
