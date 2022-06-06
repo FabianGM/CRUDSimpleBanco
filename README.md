@@ -1,8 +1,10 @@
+# CRUD SIMPLE - Ing. Fabián Garrido
 
 **EJECUTAR CON IIS Express desde Visual Studio 2019**
 **TENER DESHABILITADO LOS SSL EN POSTMAN**
 
-# CRUD SIMPLE - Ing. Fabián Garrido
+## Canal de youtube y prueba de la aplicación
+https://www.youtube.com/watch?v=wnly3s9WXcw&t=2s
 
 ## Técnologias Utilizadas 
 
@@ -24,7 +26,8 @@
 https://documenter.getpostman.com/view/16889890/Uz5GnFmA
 A su vez en el proyecto raíz se ecnuentra un pdf con la dodumentación
 
-##Resultados
+
+## Resultados
 
 ![image](https://user-images.githubusercontent.com/46567000/171810771-4dabef6f-80f1-4c83-a336-6c6538b60594.png)
 
