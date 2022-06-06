@@ -149,7 +149,7 @@ namespace ParqueaderoBackEnd.Servicios
 
         }
         /// <summary>
-        /// muestra los datos del parqueadero
+        /// muestra los datos de las cuentas
         /// </summary>
         /// <returns></returns>
         public List<ModCuenta> DatosCuenta()
