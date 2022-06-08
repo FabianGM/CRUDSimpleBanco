@@ -10,12 +10,7 @@ https://www.youtube.com/watch?v=wnly3s9WXcw&t=2s
 
 - Visual Studio 2019
 
-
 - .NET CORE 3.1
-
-
-- .NET POSTMAN
-
 
 - Inyección de Dependencias
 
